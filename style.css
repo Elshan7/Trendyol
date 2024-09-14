@@ -473,3 +473,12 @@ footer {
     border-radius: 50%;
 }
 
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
+

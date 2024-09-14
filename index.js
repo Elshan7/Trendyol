@@ -5,8 +5,8 @@ let container = document.querySelector(".sct3-container");
 
 axios.get("https://fakestoreapi.com/products")
     .then((res) => {
-        cards = res.data; // Remove 'let' to update the outer cards array
-        getData(cards);   // Call getData to initially display all items
+        cards = res.data; 
+        getData(cards);   
     });
 
    
